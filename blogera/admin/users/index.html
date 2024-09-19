@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Font Awesome-->
+	<script src="https://kit.fontawesome.com/d9eb7a7a5e.js" crossorigin="anonymous"></script>
+
+	<!-- Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&family=Whisper&display=swap" rel="stylesheet">
+
+	<!-- Custom Styling -->
+	<link rel="stylesheet"  href="../../css/style.css">
+
+	<!-- Admin Styling -->
+	<link rel="stylesheet"  href="../../css/admin.css">
+
+	<title>Admin Paneli- Kullanıcıları Yönetme</title>
+</head>
+
+
+<body>
+	<header>
+		<div class="logo">
+			<h1 class="logo-text"><span>Blog</span>era</h1>
+		</div>
+		<i class="fa fa-bars menu-toggle"></i>
+		<ul class="nav">
+			<li>
+				<a href="#">
+					<p class="fa fa-user"></p>
+					Ümit Bayram
+					<i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+				</a>
+				<ul>
+					<li><a href="#" class="logout">Çıkış</a></li>
+				</ul>
+			</li>
+		</ul> 
+	</header>
+
+	<!-- Admin Page Wrapper -->
+	<div class="admin-wrapper">
+
+		<!-- Left Sidebar -->
+		<div class="left-sidebar">
+			<ul>
+				<li><a href="../posts/index.html">Gönderi Yönet</a></li>
+				<li><a href="index.html">Kullanıcı Yönet</a></li>
+				<li><a href="../categories/index.html">Kategori Yönet</a></li>
+			</ul>
+
+		</div>
+		<!-- //Left Sidebar -->
+
+		<!-- Admin Content -->
+		<div class="admin-content">
+			<div class="button-group">
+				<a href="create.html" class="btn btn-big">Kullanıcı ekle</a>
+				<a href="index.html" class="btn btn-big">Kullanıcıları yönet</a>
+			</div>
+			
+			<div class="content">
+				
+				<h2 class="page-title">Kullanıcıları Yönet</h2>
+
+				<table>
+					<thead>
+						<th>Sıra No</th>
+						<th>Kullanıcı Adı</th>
+						<th>Rol</th>
+						<th colspan="2">Eylem</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>umitless</td>
+							<td>admin</td>
+							<td><a href="#" class="edit">edit</a></td>
+							<td><a href="#" class="delete">delete</a></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>fahrı</td>
+							<td>Yazar</td>
+							<td><a href="#" class="edit">edit</a></td>
+							<td><a href="#" class="delete">delete</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+
+		<!-- // Admin Content -->
+
+	</div>
+	<!-- //Page Wrapper -->
+
+
+	<!-- JQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	<!-- Custom Script -->
+	<script src="../../js/scripts.js"></script>
+
+</body>
+
+</html>
+
+
+
+
